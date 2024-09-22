@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>LGI | Make Donation</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="Free HTML Templates" name="keywords">
+    <meta content="Free HTML Templates" name="description">
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&family=Rubik:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Spinner Start -->
+    <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+        <div class="spinner"></div>
+    </div>
+    <!-- Spinner End -->
+
+
+    <!-- Navbar Start -->
+    <div class="container-fluid position-relative p-0">
+        <nav class="navbar navbar-expand-lg navbar-dark px-5 py-3 py-lg-0">
+            <a href="index.html" class="navbar-brand p-0">
+                <h1 class="m-0"><i class="fa fa-rocket me-2"></i>Launch Green International</h1>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                <span class="fa fa-bars"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <div class="navbar-nav ms-auto py-0">
+                    <a href="index.html" class="nav-item nav-link">Home</a>
+                    <a href="about.html" class="nav-item nav-link">About</a>
+                    <a href="service.html" class="nav-item nav-link">Services</a>
+                    <a href="contact.html" class="nav-item nav-link">Contact</a>
+                </div>
+                <a href="resources.html" class="btn btn-primary py-2 px-4 ms-3">Download Resources</a>
+            </div>
+        </nav>
+
+        <div class="container-fluid bg-primary py-5 bg-header" style="margin-bottom: 90px;">
+            <div class="row py-5">
+                <div class="col-12 pt-lg-5 mt-lg-5 text-center">
+                    <h1 class="display-4 text-white animated zoomIn">Get Involved</h1>
+                    <a href="" class="h5 text-white">Home</a>
+                    <i class="far fa-circle text-white px-2"></i>
+                    <a href="" class="h5 text-white">Donate</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Navbar End -->
+
+
+    <!-- Full Screen Search Start -->
+    <div class="modal fade" id="searchModal" tabindex="-1">
+        <div class="modal-dialog modal-fullscreen">
+            <div class="modal-content" style="background: rgba(9, 30, 62, .7);">
+                <div class="modal-header border-0">
+                    <button type="button" class="btn bg-white btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body d-flex align-items-center justify-content-center">
+                    <div class="input-group" style="max-width: 600px;">
+                        <input type="text" class="form-control bg-transparent border-primary p-3" placeholder="Type search keyword">
+                        <button class="btn btn-primary px-4"><i class="bi bi-search"></i></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Full Screen Search End -->
+
+    <!-- Donation Section Start -->
+<div class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s">
+    <div class="container py-5">
+        <div class="row g-5">
+            <!-- Write-Up Section -->
+            <div class="col-lg-6 wow slideInLeft" data-wow-delay="0.3s">
+                <div class="section-title position-relative pb-3 mb-5">
+                    <h1 class="mb-0">Support Our Mission</h1>
+                </div>
+                <div class="bg-light rounded p-4">
+                    <h4 class="text-primary mb-3">Why Donate?</h4>
+                    <p>Your donations help us continue our mission to empower individuals and support communities. Choose from a variety of donation methods to contribute in a way that suits you best. Whether it's a bank transfer or a BTC transfer, your generosity makes a significant impact.</p>
+                    <p>With your support, we can achieve:</p>
+                    <ul>
+                        <li>Empowerment programs for underprivileged individuals</li>
+                        <li>Community development projects</li>
+                        <li>Sustainable initiatives for a better future</li>
+                    </ul>
+                    <p>Thank you for being a part of our journey and making a difference.</p>
+                </div>
+            </div>
+
+            <!-- Donation Options Section -->
+        <div class="col-lg-6 wow slideInRight" data-wow-delay="0.6s">
+                        <div class="section-title text-center position-relative pb-3 mb-5 mx-auto" style="max-width: 600px;">
+                            <h5 class="fw-bold text-primary text-uppercase">Make your Donation</h5>
+                        </div>
+                        <div class="row g-0">
+                            <div class="col-lg-6 wow slideInUp option-card" data-wow-delay="0.6s" onclick="showDonationForm('bank')">
+                                <div class="bg-light rounded text-center p-4">
+                                    <h4 class="text-primary mb-3">Bank Transfer</h4>
+                                    <i class="fas fa-university fa-3x text-primary"></i>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 wow slideInUp option-card" data-wow-delay="0.9s" onclick="showDonationForm('btc')">
+                                <div class="bg-light rounded text-center p-4">
+                                    <h4 class="text-primary mb-3">BTC Transfer</h4>
+                                    <i class="fab fa-bitcoin fa-3x text-primary"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="donation-form" class="mt-5" style="display: none;">
+                            <div class="bg-white rounded shadow p-5">
+                                <h4 id="form-title" class="text-primary mb-4"></h4>
+                                <div class="form-group">
+                                    <label for="donationPurpose">Donation Purpose</label>
+                                    <select id="donationPurpose" class="form-control">
+                                        <option value="company">Anonymous Donation</option>
+                                        <option value="empowerment">To Support Lauch Int'l</option>
+                                    </select>
+                                </div>
+                                <button id="proceedButton" class="btn btn-primary mt-3">Proceed</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Donation Section End -->
+        
+        <!-- Bank Options Modal -->
+        <div class="modal fade" id="bankOptionsModal" tabindex="-1" aria-labelledby="bankOptionsModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <h5 id="bankOptionsModalLabel" class="modal-title text-primary mb-3">Select Your Bank</h5>
+                    <div class="form-group">
+                        <label for="bankSelect">Bank</label> 
+                        <select id="bankSelect" class="form-control" onchange="showAccountNumber()">
+                            <option value="Wallet 1">Select Bank</option>
+                            <option value="Bank A">First Bank</option>
+                            <option value="Bank B">Access Bank</option>
+                            <option value="Bank C">Sterling Bank</option>
+                        </select>
+                    </div>
+                    <div id="accountNumberContainer" class="mt-3" style="display: none;">
+                        <p>Account Number: <span id="accountNumber">1234567890</span> <i class="fas fa-copy copy-icon" onclick="copyToClipboard()"></i></p>
+                    </div>
+                    <button type="button" class="btn btn-secondary mt-3" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+        
+        <!-- BTC Options Modal -->
+        <div class="modal fade" id="btcOptionsModal" tabindex="-1" aria-labelledby="btcOptionsModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <h5 id="btcOptionsModalLabel" class="modal-title text-primary mb-3">Select BTC Wallet</h5>
+                    <div class="form-group">
+                        <label for="btcSelect">Select Wallet Address</label>
+                        <select id="btcSelect" class="form-control" onchange="showBtcAddress()">
+                            <option value="Wallet 1">Select Wallet</option>
+                            <option value="Wallet 1">BTC address</option>
+                        </select>
+                    </div>
+                    <div id="btcAddressContainer" class="mt-3" style="display: none;">
+                        <p>BTC Address: <span id="btcAddress">1A1zP1eP5QGefi2DMPTfTL5SLmv7DivfNa</span> <i class="fas fa-copy copy-icon" onclick="copyToClipboardBtc()"></i></p>
+                    </div>
+                    <button type="button" class="btn btn-secondary mt-3" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+
+
+    <!-- Footer Start -->
+    <div class="container-fluid bg-dark text-light mt-5 wow fadeInUp" data-wow-delay="0.1s">
+        <div class="container">
+            <div class="row gx-5">
+                <div class="col-lg-4 col-md-6 footer-about">
+                    <div class="d-flex flex-column align-items-center justify-content-center text-center h-100 p-4" style="background-color: #10a081;">
+                        <a href="index.html" class="navbar-brand">
+                            <h1 class="m-0 text-white"><i class="fa fa-rocket me-2"></i>L.G Int'l</h1>
+                        </a>
+                        <p class="mt-3 mb-4">A climate change education system where the youths thrive and evolve around the world.</p>
+                    </div>
+                </div>                
+                <div class="col-lg-8 col-md-6">
+                    <div class="row gx-5">
+                        <div class="col-lg-4 col-md-12 pt-5 mb-5">
+                            <div class="section-title section-title-sm position-relative pb-3 mb-4">
+                                <h3 class="text-light mb-0">Get In Touch</h3>
+                            </div>
+                            <div class="d-flex mb-2">
+                                <i class="bi bi-geo-alt me-2" style="color: #10a081;"></i>
+                                <p class="mb-0">8miles Calabar Cross River, Nigeria</p>
+                            </div>
+                            <div class="d-flex mb-2">
+                                <i class="bi bi-envelope-open me-2" style="color: #10a081;"></i>
+                                <p class="mb-0">thompsoneno78@gmail.com</p>
+                            </div>
+                            <div class="d-flex mb-2">
+                                <i class="bi bi-telephone me-2" style="color: #10a081;"></i>
+                                <p class="mb-0">+816 743 9718</p>
+                            </div>
+                            <div class="d-flex mt-4">
+                                <a class="btn btn-primary btn-square me-2" href="#"><i class="fab fa-twitter fw-normal"></i></a>
+                                <a class="btn btn-primary btn-square me-2" href="#"><i class="fab fa-facebook-f fw-normal"></i></a>
+                                <a class="btn btn-primary btn-square me-2" href="#"><i class="fab fa-linkedin-in fw-normal"></i></a>
+                                <a class="btn btn-primary btn-square" href="#"><i class="fab fa-instagram fw-normal"></i></a>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-12 pt-0 pt-lg-5 mb-5">
+                            <div class="section-title section-title-sm position-relative pb-3 mb-4">
+                                <h3 class="text-light mb-0">Quick Links</h3>
+                            </div>
+                            <div class="link-animated d-flex flex-column justify-content-start">
+                                <a class="text-light mb-2" href="#"><i class="bi bi-arrow-right me-2" style="color: #10a081;"></i>Home</a>
+                                <a class="text-light mb-2" href="#"><i class="bi bi-arrow-right me-2" style="color: #10a081;"></i>About Us</a>
+                                <a class="text-light mb-2" href="#"><i class="bi bi-arrow-right me-2" style="color: #10a081;"></i>Our Services</a>
+                                <a class="text-light" href="#"><i class="bi bi-arrow-right me-2" style="color: #10a081;"></i>Contact Us</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>                
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid text-white" style="background: #061429;">
+        <div class="container text-center">
+            <div class="row justify-content-end">
+                <div class="col-lg-8 col-md-6">
+                    <div class="d-flex align-items-center justify-content-center" style="height: 75px;">
+                        <p class="mb-0">&copy; <a class="text-white border-bottom" href="#">Launch Green International</a>. All Rights Reserved.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer End -->
+
+
+
+    <script>
+        function showDonationForm(type) {
+            document.getElementById('donation-form').style.display = 'block';
+            const title = type === 'bank' ? 'Bank Transfer Donation' : 'BTC Transfer Donation';
+            document.getElementById('form-title').innerText = title;
+    
+            const proceedButton = document.getElementById('proceedButton');
+            proceedButton.onclick = type === 'bank' ? showBankOptions : showBtcOptions;
+        }
+    
+        function showBankOptions() {
+            $('#bankOptionsModal').modal('show');
+        }
+    
+        function showAccountNumber() {
+            const bankSelect = document.getElementById('bankSelect');
+            const accountNumberContainer = document.getElementById('accountNumberContainer');
+            const accountNumber = document.getElementById('accountNumber');
+    
+            switch (bankSelect.value) {
+                case 'Bank A':
+                    accountNumber.innerText = '1234567890'; // Account number for Bank A
+                    accountNumberContainer.style.display = 'block';
+                    break;
+                case 'Bank B':
+                    accountNumber.innerText = '0987654321'; // Account number for Bank B
+                    accountNumberContainer.style.display = 'block';
+                    break;
+                case 'Bank C':
+                    accountNumber.innerText = '1122334455'; // Account number for Bank C
+                    accountNumberContainer.style.display = 'block';
+                    break;
+                default:
+                    accountNumberContainer.style.display = 'none';
+                    break;
+            }
+        }
+    
+        function copyToClipboard() {
+            const accountNumber = document.getElementById('accountNumber').innerText;
+            navigator.clipboard.writeText(accountNumber).then(() => {
+                showNotification('Account Number Copied!');
+            }).catch(err => {
+                console.error('Failed to copy text: ', err);
+            });
+        }
+    
+        function showBtcOptions() {
+            $('#btcOptionsModal').modal('show');
+        }
+    
+        function showBtcAddress() {
+            const btcSelect = document.getElementById('btcSelect');
+            const btcAddressContainer = document.getElementById('btcAddressContainer');
+            const btcAddress = document.getElementById('btcAddress');
+    
+            switch (btcSelect.value) {
+                case 'Wallet 1':
+                    btcAddress.innerText = '1A1zP1eP5QGefi2DMPTfTL5SLmv7DivfNa'; // BTC Address for Wallet 1
+                    btcAddressContainer.style.display = 'block';
+                    break;
+                default:
+                    btcAddressContainer.style.display = 'none';
+                    break;
+            }
+        }
+    
+        function copyToClipboardBtc() {
+            const btcAddress = document.getElementById('btcAddress').innerText;
+            navigator.clipboard.writeText(btcAddress).then(() => {
+                showNotification('Wallet Address Copied!');
+            }).catch(err => {
+                console.error('Failed to copy text: ', err);
+            });
+        }
+    
+        function showNotification(message) {
+            const notificationPopup = document.createElement('div');
+            notificationPopup.textContent = message;
+            notificationPopup.style.position = 'fixed';
+            notificationPopup.style.top = '60%';
+            notificationPopup.style.left = '50%';
+            notificationPopup.style.transform = 'translate(-50%, -50%) scale(0.9)';
+            notificationPopup.style.backgroundColor = '#28a745'; // Green color
+            notificationPopup.style.color = 'white';
+            notificationPopup.style.padding = '10px 20px';
+            notificationPopup.style.borderRadius = '5px';
+            notificationPopup.style.boxShadow = '0 0 10px rgba(0, 0, 0, 0.2)';
+            notificationPopup.style.zIndex = '1050';
+            notificationPopup.style.textAlign = 'center';
+            notificationPopup.style.opacity = '0';
+            notificationPopup.style.transition = 'opacity 0.5s ease, transform 0.5s ease';
+    
+            // Append the notification to the body
+            document.body.appendChild(notificationPopup);
+    
+            // Trigger the fade-in effect
+            setTimeout(() => {
+                notificationPopup.style.opacity = '1';
+                notificationPopup.style.transform = 'translate(-50%, -50%) scale(1)';
+            }, 10); // Small delay to ensure the transition is applied
+    
+            // Fade out the notification after 3 seconds
+            setTimeout(() => {
+                notificationPopup.style.opacity = '0';
+                notificationPopup.style.transform = 'translate(-50%, -50%) scale(0.9)';
+                setTimeout(() => {
+                    document.body.removeChild(notificationPopup);
+                }, 500); // Delay to match the fade-out duration
+            }, 3000); // Show notification for 3 seconds
+        }
+    </script>
+    
+
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/counterup/counterup.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
