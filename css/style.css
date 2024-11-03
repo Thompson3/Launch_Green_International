@@ -47,7 +47,7 @@
 #spinner {
     opacity: 0;
     visibility: hidden;
-    transition: opacity .5s ease-out, visibility 0s linear .5s;
+    transition: opacity .5s ease-out, visibility 0s linear .3s;
     z-index: 99999;
 }
 
@@ -141,7 +141,7 @@ h6,
     font-size: 18px;
     font-weight: 600;
     outline: none;
-    transition: .5s;
+    transition: .3s;
 }
 
 .sticky-top.navbar-dark .navbar-nav .nav-link {
@@ -156,6 +156,7 @@ h6,
 
 .navbar-dark .navbar-brand h1 {
     color: #FFFFFF;
+    font-size: 2.5rem;
 }
 
 .navbar-dark .navbar-toggler {
@@ -178,7 +179,7 @@ h6,
 
     .navbar-dark .navbar-brand h1 {
         color: var(--primary);
-        font-size: 1.2rem;
+        font-size: 1.5rem;
     }
 }
 
@@ -205,7 +206,7 @@ h6,
         bottom: -1px;
         left: 50%;
         background: var(--primary);
-        transition: .5s;
+        transition: .3s;
     }
 
     .navbar-dark .navbar-nav .nav-link:hover::before,
@@ -324,7 +325,7 @@ h6,
     position: relative;
     height: 300px;
     padding: 0 30px;
-    transition: .5s;
+    transition: .3s;
 }
 
 .service-item .service-icon {
@@ -374,7 +375,7 @@ h6,
     height: 15px;
     background: #DDDDDD;
     border-radius: 2px;
-    transition: .5s;
+    transition: .3s;
 }
 
 .testimonial-carousel .owl-dot.active {
@@ -388,7 +389,7 @@ h6,
 }
 
 .testimonial-carousel .owl-item .testimonial-item {
-    transition: .5s;
+    transition: .3s;
 }
 
 .testimonial-carousel .owl-item.center .testimonial-item {
@@ -399,7 +400,7 @@ h6,
 
 /*** Team ***/
 .team-item {
-    transition: .5s;
+    transition: .3s;
 }
 
 .team-social {
@@ -411,7 +412,7 @@ h6,
     display: flex;
     align-items: center;
     justify-content: center;
-    transition: .5s;
+    transition: .3s;
 }
 
 .team-social a.btn {
