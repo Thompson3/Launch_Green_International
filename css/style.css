@@ -240,22 +240,11 @@ h6,
 }
 
 @media (max-width: 576px) {
-    .carousel-caption h5 {
-        font-size: 14px;
-        font-weight: 500 !important;
-    }
 
     .carousel-caption h1 {
-        font-size: 22px;
+        font-size: 15px;
         font-weight: 600 !important;
     }
-}
-
-
-.carousel-control-prev-icon,
-.carousel-control-next-icon {
-    width: 3rem;
-    height: 3rem;
 }
 
 
